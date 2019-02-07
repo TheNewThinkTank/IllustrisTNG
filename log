@@ -1,0 +1,25 @@
+Name of response dictionary key:  dict_keys(['simulations'])
+Number of simulations: 	 	  45 
+
+Fields of first sim.: 
+  {'name': 'Illustris-1', 'num_snapshots': 134, 'url': 'http://www.tng-project.org/api/Illustris-1/'} 
+
+Names of all simulations: 
+  ['Illustris-1', 'Illustris-1-Dark', 'Illustris-2', 'Illustris-2-Dark', 'Illustris-3', 'Illustris-3-Dark', 'TNG100-1', 'TNG100-1-Dark', 'TNG100-2', 'TNG100-2-Dark', 'TNG100-3', 'TNG100-3-Dark', 'TNG300-3', 'TNG300-2-Dark', 'TNG300-2', 'TNG300-1-Dark', 'TNG300-1', 'TNG300-3-Dark', 'Illustris-1-Subbox0', 'Illustris-1-Subbox1', 'Illustris-1-Subbox2', 'Illustris-1-Subbox3', 'Illustris-2-Subbox0', 'Illustris-2-Subbox1', 'Illustris-2-Subbox2', 'Illustris-2-Subbox3', 'Illustris-3-Subbox0', 'Illustris-3-Subbox1', 'Illustris-3-Subbox2', 'Illustris-3-Subbox3', 'TNG100-1-Subbox0', 'TNG100-1-Subbox1', 'TNG100-2-Subbox0', 'TNG100-2-Subbox1', 'TNG100-3-Subbox0', 'TNG100-3-Subbox1', 'TNG300-3-Subbox1', 'TNG300-3-Subbox2', 'TNG300-3-Subbox0', 'TNG300-2-Subbox1', 'TNG300-2-Subbox2', 'TNG300-2-Subbox0', 'TNG300-1-Subbox1', 'TNG300-1-Subbox2', 'TNG300-1-Subbox0'] 
+
+Index of simulation (TNG100-1-Dark): 7 
+
+Keys: 
+ dict_keys(['name', 'description', 'name_alt', 'boxsize', 'z_start', 'z_final', 'cosmology', 'omega_0', 'omega_L', 'omega_B', 'hubble', 'physics_model', 'has_cooling', 'has_starformation', 'has_winds', 'has_blackholes', 'mass_gas', 'mass_dm', 'softening_dm_comoving', 'softening_stars_comoving', 'softening_blackholes_comoving', 'softening_gas_comoving', 'softening_dm_max_phys', 'softening_stars_max_phys', 'softening_blackholes_max_phys', 'softening_gas_max_phys', 'softening_gas_factor', 'softening_gas_comoving_min', 'num_dm', 'num_tr_mc', 'num_tr_vel', 'longids', 'is_uniform', 'is_zoom', 'is_subbox', 'num_files_snapshot', 'num_files_groupcat', 'num_files_rockstar', 'num_files_lhalotree', 'num_files_sublink', 'num_files_ctrees', 'filesize_lhalotree', 'filesize_sublink', 'filesize_ctrees', 'filesize_ics', 'filesize_simulation', 'has_fof', 'has_subfind', 'has_rockstar', 'has_lhalotree', 'has_sublink', 'has_ctrees', 'permission_required', 'num_snapshots', 'url', 'parent_simulation', 'child_simulations', 'files', 'checksums', 'snapshots']) 
+
+Number of dark matter particles:  6028568000
+Snapshots URL:  http://www.tng-project.org/api/TNG100-1-Dark/snapshots/
+Number of snapshots:  100
+Data for last snapshot: 
+ {'number': 99, 'redshift': 2.22044604925031e-16, 'num_groups_subfind': 5012155, 'url': 'http://www.tng-project.org/api/TNG100-1-Dark/snapshots/99/'} 
+
+Last snapshot: 
+ {'simulation': 'http://www.tng-project.org/api/TNG100-1-Dark/', 'number': 99, 'redshift': 2.22044604925031e-16, 'num_gas': 0, 'num_dm': 6028568000, 'num_trmc': 0, 'num_stars': 0, 'num_bhs': 0, 'num_groups_fof': 4231400, 'num_groups_subfind': 5012155, 'num_groups_rockstar': 0, 'filesize_snapshot': 385829738496.0, 'filesize_groupcat': 1783480636.0, 'filesize_rockstar': 0.0, 'url': 'http://www.tng-project.org/api/TNG100-1-Dark/snapshots/99/', 'subhalos': 'http://www.tng-project.org/api/TNG100-1-Dark/snapshots/99/subhalos/', 'vis': {'groupcat_halo_sizemass': 'http://www.tng-project.org/api/TNG100-1-Dark/snapshots/99/subhalos/plot.png?xQuant=mhalo_200_log&yQuant=rhalo_200&xlim=9.0%2C15.0'}, 'files': {'snapshot': 'http://www.tng-project.org/api/TNG100-1-Dark/files/snapshot-99/', 'groupcat': 'http://www.tng-project.org/api/TNG100-1-Dark/files/groupcat-99/'}} 
+
+Subhalo: 
+ <Response [200]>
