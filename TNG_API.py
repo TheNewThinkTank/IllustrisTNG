@@ -1,5 +1,4 @@
 import requests
-# from pprint import pprint
 import pp
 
 # Run and send output to logfile:
@@ -57,10 +56,23 @@ print("type(subs): \t ", type(subs))
 # print("Subhalo keys: ", subs.keys(), "\n")
 
 # print(subs['count'])
-print("\n \n Content:")
+print("\n \n dir(subs):")
 pp(dir(subs))
-print("\n \n Dictionary items:")
+
+print("\n \n  subs.__attrs__:")
+pp(subs.__attrs__)
+
+print("\n \n subs.__class__:")
+pp(subs.__class__)
+
+print("\n \n subs.__dict__:")
 pp(subs.__dict__)
+
+print("\n \n  subs.__subclasshook__:")
+pp(subs.__subclasshook__)
+
+print("\n \n  subs._content:")
+pp(subs._content)
 
 '''
 subs['count']
