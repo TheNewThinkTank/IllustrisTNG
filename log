@@ -1,10 +1,16 @@
 Name of response dictionary key:  dict_keys(['simulations'])
 Number of simulations: 	 	  45 
 
-Fields of first sim.: 
-  {'name': 'Illustris-1', 'num_snapshots': 134, 'url': 'http://www.tng-project.org/api/Illustris-1/'} 
 
-'Names of all simulations:'
+ Fields of first sim.:
+{
+    'name': 'Illustris-1',
+    'num_snapshots': 134,
+    'url': 'http://www.tng-project.org/api/Illustris-1/',
+}
+
+ 
+ Names of all simulations:
 [
     'Illustris-1',
     'Illustris-1-Dark',
@@ -52,18 +58,32 @@ Fields of first sim.:
     'TNG300-1-Subbox2',
     'TNG300-1-Subbox0',
 ]
-Index of simulation (TNG100-1-Dark): 7 
 
-'Keys:'
+ 
+ Index of simulation (TNG100-1-Dark): 7
+
+ 
+ Keys:
 dict_keys(['name', 'description', 'name_alt', 'boxsize', 'z_start', 'z_final', 'cosmology', 'omega_0', 'omega_L', 'omega_B', 'hubble', 'physics_model', 'has_cooling', 'has_starformation', 'has_winds', 'has_blackholes', 'mass_gas', 'mass_dm', 'softening_dm_comoving', 'softening_stars_comoving', 'softening_blackholes_comoving', 'softening_gas_comoving', 'softening_dm_max_phys', 'softening_stars_max_phys', 'softening_blackholes_max_phys', 'softening_gas_max_phys', 'softening_gas_factor', 'softening_gas_comoving_min', 'num_dm', 'num_tr_mc', 'num_tr_vel', 'longids', 'is_uniform', 'is_zoom', 'is_subbox', 'num_files_snapshot', 'num_files_groupcat', 'num_files_rockstar', 'num_files_lhalotree', 'num_files_sublink', 'num_files_ctrees', 'filesize_lhalotree', 'filesize_sublink', 'filesize_ctrees', 'filesize_ics', 'filesize_simulation', 'has_fof', 'has_subfind', 'has_rockstar', 'has_lhalotree', 'has_sublink', 'has_ctrees', 'permission_required', 'num_snapshots', 'url', 'parent_simulation', 'child_simulations', 'files', 'checksums', 'snapshots'])
 
+ 
  Number of dark matter particles:  6028568000
-Snapshots URL:  http://www.tng-project.org/api/TNG100-1-Dark/snapshots/
-Number of snapshots:  100
-Data for last snapshot: 
- {'number': 99, 'redshift': 2.22044604925031e-16, 'num_groups_subfind': 5012155, 'url': 'http://www.tng-project.org/api/TNG100-1-Dark/snapshots/99/'} 
 
-'Last snapshot:'
+ Snapshots URL: 	 	   http://www.tng-project.org/api/TNG100-1-Dark/snapshots/
+
+ Number of snapshots: 	 	   100
+
+ 
+ Data for last snapshot:
+{
+    'num_groups_subfind': 5012155,
+    'number': 99,
+    'redshift': 2.22044604925031e-16,
+    'url': 'http://www.tng-project.org/api/TNG100-1-Dark/snapshots/99/',
+}
+
+ 
+ Last snapshot:
 {
     'files': {
         'groupcat': 'http://www.tng-project.org/api/TNG100-1-Dark/files/groupcat-99/',
@@ -90,13 +110,13 @@ Data for last snapshot:
     },
 }
 
- Subhalo: 
- <Response [200]> 
+ 
+ Subhalo: 	  <Response [200]> 
 
-type(subs) <class 'requests.models.Response'> 
+type(subs): 	  <class 'requests.models.Response'>
 
-<Response [200]> 
-
+ 
+ Content:
 [
     '__attrs__',
     '__bool__',
@@ -160,17 +180,20 @@ type(subs) <class 'requests.models.Response'>
     'text',
     'url',
 ]
+
+ 
+ Dictionary items:
 {
     '_content': b'\n\n\n<!DOCTYPE html>\n<html>\n  <head>\n    <title>IllustrisTNG - Main</title>\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <meta name="description" content="The IllustrisTNG project. The next generation of cosmological hydrodynamical simulations of galaxy formation and evolution.">\n    <meta name="author" content="Dylan Nelson for the TNG Collaboration.">\n    <link href="/static/min/base_tng.css" rel="stylesheet" type="text/css" />\n    \n    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->\n    <!--[if lt IE 9]>\n      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>\n      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>\n    <![endif]-->\n  </head>\n  \n  <body >\n    \n    <div class="navbar  navbar-inverse navbar-fixed-top " >\n      <div class="container">\n        <div class="navbar-header ">\n          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">\n            <span class="sr-only">Toggle navigation</span>\n            <span class="icon-bar"></span>\n            <span class="icon-bar"></span>\n            <span class="icon-bar"></span>\n          </button>\n          \n          <a class="navbar-brand" href="/">TNG</a>\n          \n        </div>\n        <div class="navbar-collapse  collapse">\n\n          <ul class="nav navbar-nav ">\n            \n            <li><a href="/about/">Project Description</a></li>\n            <li><a href="/people/">People + Contact</a></li>\n            <li><a href="/results/">Results</a></li>\n            <!--<li><a href="">Press</a></li>-->\n            <li><a href="/media/">Images + Videos</a></li>\n            <li class=&quot;active&quot;><a href="/data/">Data Access</a></li>\n            <li><a href="/explore/">Explore</a></li>\n            \n            \n            \n            <li class="hidden-lg hidden-md ">\n              <a href="/users/login/">User Settings</a>\n            </li>\n          </ul>\n          \n          <ul class="nav navbar-nav navbar-right hidden-sm hidden-xs"><a href="/users/profile/"><span class="sr-only">User settings</span><li class="user-settings gear3 "></li></a></ul>\n        </div> <!-- navbar-collapse -->\n       </div> <!--container-->\n    </div>\n    \n    \n    <div class="container">\n      \n      <div class="row">\n        <div class="col-md-12">\n\n          <div style=\'text-align: center; margin: 40px auto 200px auto; padding: 20px; display: block; background-color: #fafafa;\'>\n            <h1 style=\'padding: 20px auto;\'>Error 500 (Server Issue)</h1>\n            <p>Sorry, something went wrong on our side! This really shouldn\'t happen, please let us know you hit this issue.</p>\n          </div>\n\n         </div>\n       </div>\n\n    \n      <hr>\n\n      <footer>\n        <p id="footer-right">We gratefully acknowledge support from\n          <a href="https://www.mpcdf.mpg.de/"><img src="/static/illustris/images/mpcdf-logo.png"></a>\n          and \n          <a href="http://www.rc.fas.harvard.edu/"><img src="/static/illustris/images/logo_fasrc.png"></a>\n        </p>\n        <p>(c) 2019 The TNG Collaboration.\n        (You are logged in: Gustav Rasmussen).\n        </p>\n      </footer>\n    </div> <!-- /container -->\n    \n    \n    <script type=\'text/javascript\'>\n       var token = "none"; \n       var debugPath = ""; \n      \n      (function(i,s,o,g,r,a,m){i[\'GoogleAnalyticsObject\']=r;i[r]=i[r]||function(){\n      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n      })(window,document,\'script\',\'//www.google-analytics.com/analytics.js\',\'ga\');\n      ga(\'create\', \'UA-25177588-6\', \'auto\');\n      ga(\'send\', \'pageview\');\n    </script>\n    <script src="https://code.jquery.com/jquery.min.js"></script>\n    <script type="text/javascript" src="/static/min/base_tng.js" charset="utf-8"></script>\n    \n    \n  </body>\n</html>\n',
     '_content_consumed': True,
     '_next': None,
-    'connection': <requests.adapters.HTTPAdapter object at 0x10c4854a8>,
+    'connection': <requests.adapters.HTTPAdapter object at 0x104ab2400>,
     'cookies': <RequestsCookieJar[]>,
-    'elapsed': datetime.timedelta(microseconds=112244),
+    'elapsed': datetime.timedelta(microseconds=116487),
     'encoding': 'utf-8',
-    'headers': {'Date': 'Sat, 09 Feb 2019 16:50:29 GMT', 'Server': 'Apache', 'Content-Length': '3999', 'X-Frame-Options': 'SAMEORIGIN', 'Vary': 'Cookie', 'Content-Security-Policy': 'frame-ancestors http://*.tng-project.org;', 'Content-Type': 'text/html; charset=utf-8', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive'},
+    'headers': {'Date': 'Sat, 09 Feb 2019 17:15:22 GMT', 'Server': 'Apache', 'Content-Length': '3999', 'X-Frame-Options': 'SAMEORIGIN', 'Vary': 'Cookie', 'Content-Security-Policy': 'frame-ancestors http://*.tng-project.org;', 'Content-Type': 'text/html; charset=utf-8', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive'},
     'history': [],
-    'raw': <urllib3.response.HTTPResponse object at 0x10c485518>,
+    'raw': <urllib3.response.HTTPResponse object at 0x104ab2940>,
     'reason': 'OK',
     'request': <PreparedRequest [GET]>,
     'status_code': 200,
