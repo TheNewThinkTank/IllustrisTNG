@@ -1,3 +1,4 @@
+![CI](https://github.com/TheNewThinkTank/IllustrisTNG/actions/workflows/wf.yml/badge.svg)
 [![GitHub repo size](https://img.shields.io/github/repo-size/TheNewThinkTank/IllustrisTNG?style=flat&logo=github&logoColor=whitesmoke&label=Repo%20Size)](https://github.com/TheNewThinkTank/IllustrisTNG/archive/refs/heads/main.zip)
 # IllustrisTNG
 The next generation of cosmological hydrodynamical simulations of galaxy formation and evolution.
